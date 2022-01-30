@@ -56,3 +56,16 @@ This is a sample test that tests if the getter method works
         assertTrue(true);
    
 ```
+## Built With
+
+* [Java](https://www.java.com/) - The language used
+* [Intellij Idea](https://www.jetbrains.com/idea/) - Integrated development
+* [Spark]() - Framework
+
+## Versioning
+
+We use [Github](https://github.com/) for versioning. This is the first version of this application
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
