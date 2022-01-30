@@ -1,0 +1,25 @@
+{{#block "header"}}
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{#block "title"}}Hero App!{{/block}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    </head>
+    <body style="text-align: center; padding-top: 2%;">
+    <img src= url "https://images.unsplash.com/photo-1501432377862-3d0432b87a14?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3VwZXIlMjBoZXJvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="75%" alt="">
+{{/block}}
+
+<!-- begin inner template-->
+<div class="container">
+    {{#block "content"}}
+    {{/block}}
+
+</div>
+<!-- end inner template-->
+{{#block "footer"}}
+
+    </body>
+    </html>
+{{/block}}

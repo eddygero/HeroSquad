@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTesting" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-30T19:50:03" hostname="gero-HP-ProBook-450-G5" time="823.341">
+  <properties/>
+  <testcase name="addHeros_addMultipleHerosToTheSameSquad_True" classname="AppTesting" time="50.332"/>
+  <testcase name="getSquadName_displaySquadName_True" classname="AppTesting" time="135.578"/>
+  <testcase name="newHero_CreateNewHeroInstance_true" classname="AppTesting" time="1.618"/>
+  <testcase name="duplicateSquadInstance_CreateSquadInstanceWithSameSquadName_False" classname="AppTesting" time="611.453"/>
+  <testcase name="newSquad_CreateNewSQUADInstance_true" classname="AppTesting" time="19.667"/>
+  <testcase name="duplicateHeroInstance_CreateDuplicateHeroInstance_False" classname="AppTesting" time="3.984"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
