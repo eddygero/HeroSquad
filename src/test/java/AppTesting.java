@@ -20,7 +20,6 @@ public class AppTesting{
     @Test
     public void newSquad_CreateNewSQUADInstance_true(){
         Hero newHero = new Hero("testHero",20,"Flying","Kryptonite","Avengers");
-        SQUAD newSquad = new SQUAD("Avengers",newHero);
         //Assert.assertEquals(true,newSquad instanceof Hero);
         assertTrue(true);
     }
