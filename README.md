@@ -7,5 +7,25 @@ This is a java app that enables a user create a hero and a squad and also the us
 
 **EDWARD GERO**
 =======
-# HeroSquad
->>>>>>> 9f005d2257b15c3c5d569eca85c7e56bca8c90d1
+## Getting Started
+
+Clone this repository to your local machine to get Started
+
+
+
+### Prerequisites
+
+You need the following installed on your machine
+- java
+- JDK - Java Development Kit
+- Maven
+- Gradle
+- An IDE - Intellij
+
+
+To confirm run the following command on linux
+```
+$ java --version       //java version
+$ mvn --version        //maven version
+$ gradle --version     //gradle version
+```
