@@ -4,21 +4,18 @@ import java.util.ArrayList;
 
 public class SQUAD {
 
-    private static ArrayList<SQUAD> instances =new ArrayList<>();
-    private  ArrayList<Hero> heros = new ArrayList<>();
-    private String squadName;
-    private Hero hero;
-    private Integer id;
-    private boolean check = false;
-    private boolean checkHero = false;
+    private static final ArrayList<SQUAD> instances =new ArrayList<>();
+    private final ArrayList<Hero> heros = new ArrayList<>();
+    private final String squadName;
     private int instance ;
 
 
     public SQUAD(String squadName, Hero hero) {
         this.squadName = squadName.toUpperCase();
-        this.hero = hero;
-        this.id = instances.size();
+        Integer id = instances.size();
 
+        boolean check = false;
+        boolean checkHero = false;
         for (int i = 0; i < instances.size(); i++) {
 
             //if squad entered is existent in instances
