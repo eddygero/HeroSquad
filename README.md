@@ -1,4 +1,3 @@
-
 # Hero Squad
 
 This is a java app that enables a user create a hero and a squad and also the user can add a hero to a squad
@@ -44,4 +43,3 @@ We use [Github](https://github.com/) for versioning. This is the first version o
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-

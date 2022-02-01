@@ -4,13 +4,14 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 public class Hero {
 
-    private final String name;
-    private final Integer age;
-    private final String specialPower;
-    private final String weakness;
-    private final String yourSquad;
+    private String name;
+    private Integer age;
+    private String specialPower;
+    private String weakness;
+    private String yourSquad;
+    private boolean check = false;
 
-    private static final ArrayList<Hero> instances = new ArrayList<>();
+    private static ArrayList<Hero> instances = new ArrayList<>();
 
     public Hero(String name, Integer age, String specialPower, String weakness, String yourSquad){
         this.name = name;
@@ -19,9 +20,8 @@ public class Hero {
         this.age = age;
         this.yourSquad = yourSquad;
 
-        boolean check = false;
-        for (Hero instance : instances) {
-            if (instance.getName().equals(name)) {
+        for (int i = 0 ; i < instances.size() ; i++){
+            if (instances.get(i).getName().equals(name)){
                 showMessageDialog(null, "The Hero exists in one of the Squads");
                 check = true;
             }

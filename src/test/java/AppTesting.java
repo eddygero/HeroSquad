@@ -1,13 +1,11 @@
 import junit.framework.TestCase;
 import model.Hero;
 import model.SQUAD;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.Assert.*;
-
 
 import static junit.framework.TestCase.assertTrue;
 public class AppTesting{
@@ -15,14 +13,15 @@ public class AppTesting{
     public void newHero_CreateNewHeroInstance_true(){
         Hero newHero = new Hero("testHero",20,"Flying","Kryptonite","Avengers");
         //Assert.assertEquals(true,newHero instanceof Hero);
-        Assert.assertTrue(true);
+        assertEquals(true, newHero instanceof Hero);
     }
 
     @Test
     public void newSquad_CreateNewSQUADInstance_true(){
         Hero newHero = new Hero("testHero",20,"Flying","Kryptonite","Avengers");
+        SQUAD newSquad = new SQUAD("Avengers",newHero);
         //Assert.assertEquals(true,newSquad instanceof Hero);
-        assertTrue(true);
+        assertTrue(newSquad instanceof SQUAD);
     }
     @Test
     public void duplicateHeroInstance_CreateDuplicateHeroInstance_False(){
@@ -58,7 +57,7 @@ public class AppTesting{
         Hero newHero1 = new Hero("testHero1",20,"Flying","Kryptonite","Avengers");
         SQUAD newSquad1 = new SQUAD("Avengers",newHero1);
 
-        assertNotEquals("Avengers", newSquad.getSquadName());
+        assertFalse("Avengers".equals(newSquad.getSquadName()));
     }
 
 }

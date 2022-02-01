@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hero</groupId>
-    <artifactId>eddy</artifactId>
+    <artifactId>hero</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
-            <version>2.9.3</version>
+            <version>2.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.velocity</groupId>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.sql2o</groupId>
             <artifactId>sql2o</artifactId>
-            <version>1.6.0</version>
+            <version>1.5.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -36,7 +36,6 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-template-handlebars</artifactId>
@@ -85,7 +84,7 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>hero</appName>
                     <processTypes>
-                        <web>java -jar target/eddy-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
+                        <web>java -jar target/hero-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
