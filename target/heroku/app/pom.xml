@@ -84,7 +84,7 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>herosquaad</appName>
                     <processTypes>
-                        <web>java -jar target/hero-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
+                        <web>java-jar target/hero-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>

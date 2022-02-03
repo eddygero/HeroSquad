@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>herosquaad</groupId>
-    <artifactId>herosquadd</artifactId>
+    <artifactId>eddy</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -84,7 +84,7 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>herosquaad</appName>
                     <processTypes>
-                        <web>java -jar target/hero-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
+                        <web>java-jar target/eddy-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
