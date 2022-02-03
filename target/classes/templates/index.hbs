@@ -1,5 +1,5 @@
 {{#partial "content"}}
-    <h1>HERE ARE THE HEROS WE HAVE</h1>
+    <h1>HERE ARE THE HEROES WE HAVE</h1>
 
     {{#if squads}}
         <div class="row">
@@ -9,6 +9,7 @@
                     {{#each heros}}
                         <div class="card" style="text-align: left;">
                             <div class="card-body">
+
                                 <h3 class="card-title"> {{ name }} </h3>
                                 <li> Hero age  :<strong> {{ age }} </strong></li>
                                 <li> Hero Special Ability :<strong> {{ specialPower }} </strong></li>
@@ -20,10 +21,10 @@
             {{/each}}
         </div>
 
-        <h1>Add heros to view them here</h1>
+        <h1>Add heroes to view them here</h1>
 
     {{else}}
-        <p>NO HEROS HAVE JOINED US YET !!</p>
+        <p>NO HEROES HAVE BEEN ADDED YET !!</p>
 
     {{/if}}
 

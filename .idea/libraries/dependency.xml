@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="dependency">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/dependency/antlr4-runtime-4.5.1-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/sql2o-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-util-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/handlebars-guava-cache-4.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-xml-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/spark-template-handlebars-2.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.servlet-3.0.0.v201112011016.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/guava-14.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/spark-core-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/rhino-1.7R4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-security-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-io-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-webapp-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-servlet-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/postgresql-9.4.1208.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-server-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jetty-http-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/handlebars-4.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/slf4j-simple-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

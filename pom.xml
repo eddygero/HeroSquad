@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hero</groupId>
-    <artifactId>hero</artifactId>
+    <groupId>herosquaad</groupId>
+    <artifactId>herosquadd</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
-            <version>2.2</version>
+            <version>2.9.3</version>
         </dependency>
         <dependency>
             <groupId>org.apache.velocity</groupId>
@@ -23,17 +23,17 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.4.1208</version>
+            <version>42.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.sql2o</groupId>
             <artifactId>sql2o</artifactId>
-            <version>1.5.4</version>
+            <version>1.6.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -82,7 +82,7 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Change this to YOUR application name! -->
-                    <appName>hero</appName>
+                    <appName>herosquaad</appName>
                     <processTypes>
                         <web>java -jar target/hero-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                     </processTypes>
